@@ -1,24 +1,23 @@
-**Name**: Oleg
-**Surname**: Melkunas
+### **Name**: Oleg Melkunas
 
-###Contact information
-Tel:   +123456XXX
-E-mail: omelkunas@gmail.com
+### **Contact information**
+Tel:   +123456XXX<br>
+E-mail: omelkunas@gmail.com<br>
 Skype: live:.cid.7f0315258fa571f5
 
-###Summary
+### **Summary**
 lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor erat sit amet urna suscipit molestie. Curabitur pharetra vestibulum massa, vitae blandit ligula elementum vitae. Suspendisse tempus viverra ligula, nec interdum nulla.
 
-###Skills
+### **Skills**
 - HTML Basics
 - CSS Basics
 - JS Core Basics
 - Git/GitHub Basics
 - SQL Basics
 
-###Code examples
-inline `console.log('Hello, World!');`
-block
+### **Code examples**
+- inline `console.log('Hello, World!');`
+- block:
 ```javascript
 const printNumbers = (initialNumber) => {
   let i = initialNumber;
@@ -30,11 +29,11 @@ const printNumbers = (initialNumber) => {
 };
 ```
 
-###Work experience
+### **Work experience**
 lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor erat sit amet urna suscipit molestie. Curabitur pharetra vestibulum massa, vitae blandit ligula elementum vitae. Suspendisse tempus viverra ligula, nec interdum nulla.
 
-###Education
+### **Education**
 Higher education: BSAA (Belarusian State Academy of Aviation), 2013
 
-###English
+### **English**
 level B1
