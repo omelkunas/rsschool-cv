@@ -1,2 +1,2 @@
 # rsschool-cv
-//omelkunas.github.io/rsschool-cv/cv
+https://omelkunas.github.io/rsschool-cv/cv
