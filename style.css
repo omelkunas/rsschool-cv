@@ -1,4 +1,8 @@
 body {
+  margin: 0;
+}
+
+.wrapper {
   margin: auto;
   max-width: 768px;
   border: 1px solid black;
@@ -60,5 +64,10 @@ main {
 }
 
 .year {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
   text-align: center;
 }
