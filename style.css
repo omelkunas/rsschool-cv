@@ -1,0 +1,64 @@
+body {
+  margin: auto;
+  max-width: 768px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-family: Verdana, sens-serif;
+}
+
+header {
+  background: linear-gradient(to top, #3c3c3c, black);
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: lightgray;
+}
+
+section {
+  padding: 0 30px;
+  text-align: justify;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+ul, .year {
+  margin-bottom: 0;
+}
+
+pre, code {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: darkblue;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid #3c3c3c;
+  background-color: lightgray;
+}
+
+main {
+  padding-bottom: 40px;
+}
+
+.year {
+  text-align: center;
+}
