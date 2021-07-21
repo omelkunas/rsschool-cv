@@ -21,7 +21,7 @@ h2 {
 }
 
 section {
-  padding: 0 20px;
+  padding: 0 30px;
   text-align: justify;
 }
 
@@ -37,7 +37,7 @@ section {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-ul {
+ul, .year {
   margin-bottom: 0;
 }
 
@@ -57,4 +57,8 @@ footer {
 
 main {
   padding-bottom: 40px;
+}
+
+.year {
+  text-align: center;
 }
