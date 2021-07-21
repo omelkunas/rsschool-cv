@@ -8,81 +8,87 @@
   <title>CV</title>
 </head>
 <body>
-  <header>
-    <h1>Oleg Melkunas</h1>
-    <h2>Curriculum Vitae</h2>
-  </header>
-  <main>
-    <section class="flex">
-      <img class="avatar" src="ava.jpg" alt="ava is here" width="180" height="180">
-      <div>
-        <h3>Contact information</h3>
+  <div class="wrapper">
+    <header>
+      <h1>Oleg Melkunas</h1>
+      <h2>Curriculum Vitae</h2>
+    </header>
+    <main>
+      <section class="flex">
+        <figure>
+          <img class="avatar" src="ava.jpg" alt="ava is here" width="180" height="180">
+          <figcaption>Here I am</figcaption>
+        </figure>
+        
+        <div>
+          <h3>Contact information</h3>
+          <ul>
+            <li>Phone: <a href="tel:+123456XXX">+123456XXX</a></li>
+            <li>E-mail: <a href="mailto:omelkunas@gmail.com">omelkunas@gmail.com</a></li>
+            <li>Skype: <a href="skype:live:.cid.7f0315258fa571f5?chat">live:.cid.7f0315258fa571f5</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="summary">
+        <h3>Summary</h3>
+        <div>
+          I'm a newbie in the front-end who's performing his task in the Rolling Scopes course. 
+          I'm planning to finish the full course. It should be a good starting point 
+          in a full of attractions world of JavaScript.
+        </div>
+      </section>
+      <section class="skills">
+        <h3>Skills</h3>
         <ul>
-          <li>Telephone: +123456XXX</li>
-          <li>E-mail: omelkunas@gmail.com</li>
-          <li>Skype: live:.cid.7f0315258fa571f5</li>
+          <li>HTML Basics</li>
+          <li>CSS Basics</li>
+          <li>JS Core Basics</li>
+          <li>Git/GitHub Basics</li>
+          <li>SQL Basics</li>
         </ul>
-      </div>
+      </section>
+      <section class="code">
+        <h3>Code examples</h3>
+        <ul>
+          <li>inline: <code>console.log('Hello, World!');</code></li>
+          <li>block:</li>
+        </ul>
+        <pre><code>
+          const printNumbers = (initialNumber) => {
+            let i = initialNumber;
+            while (i >= 1) {
+              console.log(i);
+              i = i - 1;
+            }
+            console.log('finished!');
+          };</code></pre>
+      </section>
+      <!--section class="experience">
+        <h3>Work experience</h3>
+        <div>
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Fusce porttitor erat sit amet urna suscipit molestie. Curabitur pharetra vestibulum massa, 
+          vitae blandit ligula elementum vitae. Suspendisse tempus viverra ligula, nec interdum nulla.
+        </div>
+      </section-->
+      <section class="education">
+        <h3>Education</h3>
+        <div>Higher education: BSAA (Belarusian State Academy of Aviation), 2013</div>
+      </section>
+      <section class="english">
+        <h3>English</h3>
+        <div>level B1</div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div class="flex">
+          <a href="https://github.com/omelkunas/"><img src="github.png" alt="git logo" width="140" height="32"></a>
+          <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="rs.school logo" width="110" height="110"></a>
+        </div>
+        <h3 class="year">2021</h3>
     </section>
-    <section class="summary">
-      <h3>Summary</h3>
-      <div>
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor erat sit 
-        amet urna suscipit molestie. Curabitur pharetra vestibulum massa, 
-        vitae blandit ligula elementum vitae. Suspendisse tempus viverra ligula, nec interdum nulla.
-      </div>
-    </section>
-    <section class="skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML Basics</li>
-        <li>CSS Basics</li>
-        <li>JS Core Basics</li>
-        <li>Git/GitHub Basics</li>
-        <li>SQL Basics</li>
-      </ul>
-    </section>
-    <section class="code">
-      <h3>Code examples</h3>
-      <ul>
-        <li>inline: <code>console.log('Hello, World!');</code></li>
-        <li>block:</li>
-      </ul>
-      <pre><code>
-        const printNumbers = (initialNumber) => {
-          let i = initialNumber;
-          while (i >= 1) {
-            console.log(i);
-            i = i - 1;
-          }
-          console.log('finished!');
-        };</code></pre>
-    </section>
-    <section class="experience">
-      <h3>Work experience</h3>
-      <div>
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Fusce porttitor erat sit amet urna suscipit molestie. Curabitur pharetra vestibulum massa, 
-        vitae blandit ligula elementum vitae. Suspendisse tempus viverra ligula, nec interdum nulla.
-      </div>
-    </section>
-    <section class="education">
-      <h3>Education</h3>
-      <div>Higher education: BSAA (Belarusian State Academy of Aviation), 2013</div>
-    </section>
-    <section class="english">
-      <h3>English</h3>
-      <div>level B1</div>
-    </section>
-  </main>
-  <footer>
-    <section>
-      <div class="flex">
-        <a href="https://github.com/omelkunas/"><img src="github.png" alt="git logo" width="140" height="32"></a>
-        <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="rs.school logo" width="110" height="110"></a>
-      </div>
-      <h3 class="year">2021</h3>
-  </section>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
