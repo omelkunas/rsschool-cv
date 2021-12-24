@@ -62,3 +62,19 @@ main {
 .year {
   text-align: center;
 }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+}
